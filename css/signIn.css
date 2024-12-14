@@ -54,3 +54,15 @@ button {
 button:hover{
       background-color: #4caf4f96;
 }
+.a{
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    background-color: #4CAF50;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

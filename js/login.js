@@ -2,15 +2,11 @@ let form = document.getElementById("logform");
 let userName = document.getElementById("userName");
 let password = document.getElementById("Password");
 
-let userData = {
-  username: "Admin",
-  Password: "Admin",
-};
 form.onsubmit = addEventListener("submit", (event) => {
   event.preventDefault();
   if (
-    userName.value == userData.username &&
-    password.value == userData.Password
+    userName.value == localStorage.userName &&
+    password.value == localStorage.password
   ) {
     window.location.href = "./html/home.html";
   } else {
